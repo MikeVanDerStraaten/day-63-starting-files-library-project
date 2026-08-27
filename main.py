@@ -43,10 +43,10 @@ with app.app_context():
 
 # Read All Records
 
-with app.app_context():
-    result = db.session.execute(db.select(Books).order_by(Books.title))
-    all_books = result.fetchall()
-print(all_books)
+# with app.app_context():
+#     result = db.session.execute(db.select(Books).order_by(Books.title))
+#     all_books = result.fetchall()
+# print(all_books)
 
 all_books = []
 
